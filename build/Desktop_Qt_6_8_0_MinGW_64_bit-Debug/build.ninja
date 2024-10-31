@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_
 #############################################
 # Order-only phony target for appNotesApplication
 
-build cmake_object_order_depends_target_appNotesApplication: phony || .qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp .qt/rcc/qrc_qmake_NotesApplication.cpp .rcc/qmlcache/appNotesApplication_Main_qml.cpp .rcc/qmlcache/appNotesApplication_Main_qml.cpp.aotstats .rcc/qmlcache/appNotesApplication_qmlcache_loader.cpp NotesApplication/appNotesApplication.qmltypes appNotesApplication_autogen appNotesApplication_autogen/mocs_compilation.cpp appNotesApplication_autogen/timestamp appNotesApplication_autogen_timestamp_deps appNotesApplication_qmlimportscan appNotesApplication_tooling appnotesapplication_qmltyperegistrations.cpp meta_types/appNotesApplication_json_file_list.txt meta_types/appNotesApplication_json_file_list.txt.timestamp meta_types/qt6appnotesapplication_debug_metatypes.json meta_types/qt6appnotesapplication_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appNotesApplication: phony || .qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp .qt/rcc/qrc_qmake_NotesApplication.cpp .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.aotstats .rcc/qmlcache/appNotesApplication_Main_qml.cpp .rcc/qmlcache/appNotesApplication_Main_qml.cpp.aotstats .rcc/qmlcache/appNotesApplication_qmlcache_loader.cpp NotesApplication/appNotesApplication.qmltypes appNotesApplication_autogen appNotesApplication_autogen/mocs_compilation.cpp appNotesApplication_autogen/timestamp appNotesApplication_autogen_timestamp_deps appNotesApplication_qmlimportscan appNotesApplication_tooling appnotesapplication_qmltyperegistrations.cpp meta_types/appNotesApplication_json_file_list.txt meta_types/appNotesApplication_json_file_list.txt.timestamp meta_types/qt6appnotesapplication_debug_metatypes.json meta_types/qt6appnotesapplication_debug_metatypes.json.gen
 
 build CMakeFiles/appNotesApplication.dir/appNotesApplication_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appNotesApplication_unscanned_Debug C$:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appNotesApplication_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appNotesApplication
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -97,6 +97,14 @@ build CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Deb
   OBJECT_DIR = CMakeFiles\appNotesApplication.dir
   OBJECT_FILE_DIR = CMakeFiles\appNotesApplication.dir\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.rcc\qmlcache
 
+build CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.obj: CXX_COMPILER__appNotesApplication_unscanned_Debug C$:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp || cmake_object_order_depends_target_appNotesApplication
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appNotesApplication.dir\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.rcc\qmlcache\appNotesApplication_CustomButton_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/appNotesApplication_autogen/include -IC:/Repositories/QT-CPP/NotesApplication -isystem C:/Qt/6.8.0/mingw_64/include/QtQml/6.8.0 -isystem C:/Qt/6.8.0/mingw_64/include/QtQml/6.8.0/QtQml -isystem C:/Qt/6.8.0/mingw_64/include/QtCore/6.8.0 -isystem C:/Qt/6.8.0/mingw_64/include/QtCore/6.8.0/QtCore -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtQml -isystem C:/Qt/6.8.0/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork -isystem C:/Qt/6.8.0/mingw_64/include/QtQuick -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtQmlMeta -isystem C:/Qt/6.8.0/mingw_64/include/QtQmlModels -isystem C:/Qt/6.8.0/mingw_64/include/QtQmlWorkerScript -isystem C:/Qt/6.8.0/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appNotesApplication.dir
+  OBJECT_FILE_DIR = CMakeFiles\appNotesApplication.dir\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.rcc\qmlcache
+
 build CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp.obj: CXX_COMPILER__appNotesApplication_unscanned_Debug C$:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp || cmake_object_order_depends_target_appNotesApplication
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appNotesApplication.dir\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appNotesApplication_raw_qml_0.cpp.obj.d
@@ -113,7 +121,7 @@ build CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Deb
 #############################################
 # Link the executable appNotesApplication.exe
 
-build appNotesApplication.exe: CXX_EXECUTABLE_LINKER__appNotesApplication_Debug CMakeFiles/appNotesApplication.dir/appNotesApplication_autogen/mocs_compilation.cpp.obj CMakeFiles/appNotesApplication.dir/main.cpp.obj CMakeFiles/appNotesApplication.dir/appnotesapplication_qmltyperegistrations.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_NotesApplication.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_qmlcache_loader.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_Main_qml.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.8.0/mingw_64/lib/libQt6QmlMeta.a C$:/Qt/6.8.0/mingw_64/lib/libQt6QmlWorkerScript.a C$:/Qt/6.8.0/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.0/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || appNotesApplication_autogen appNotesApplication_autogen_timestamp_deps appNotesApplication_qmlimportscan appNotesApplication_tooling
+build appNotesApplication.exe: CXX_EXECUTABLE_LINKER__appNotesApplication_Debug CMakeFiles/appNotesApplication.dir/appNotesApplication_autogen/mocs_compilation.cpp.obj CMakeFiles/appNotesApplication.dir/main.cpp.obj CMakeFiles/appNotesApplication.dir/appnotesapplication_qmltyperegistrations.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_NotesApplication.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_qmlcache_loader.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_Main_qml.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.obj CMakeFiles/appNotesApplication.dir/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.8.0/mingw_64/lib/libQt6QmlMeta.a C$:/Qt/6.8.0/mingw_64/lib/libQt6QmlWorkerScript.a C$:/Qt/6.8.0/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.0/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || appNotesApplication_autogen appNotesApplication_autogen_timestamp_deps appNotesApplication_qmlimportscan appNotesApplication_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.8.0/mingw_64/lib/libQt6Quick.a  C:/Qt/6.8.0/mingw_64/lib/libQt6QmlMeta.a  C:/Qt/6.8.0/mingw_64/lib/libQt6QmlWorkerScript.a  C:/Qt/6.8.0/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Qml.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Network.a  -lws2_32  C:/Qt/6.8.0/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -176,13 +184,13 @@ build all_qmllint_module: phony appNotesApplication_qmllint_module
 #############################################
 # Utility command for module_appNotesApplication_aotstats_targets
 
-build module_appNotesApplication_aotstats_targets: phony CMakeFiles/module_appNotesApplication_aotstats_targets .rcc/qmlcache/module_NotesApplication.aotstats .rcc/qmlcache/appNotesApplication_Main_qml.cpp .rcc/qmlcache/appNotesApplication_Main_qml.cpp.aotstats appnotesapplication_qmltyperegistrations.cpp NotesApplication/appNotesApplication.qmltypes appNotesApplication_qmltyperegistration
+build module_appNotesApplication_aotstats_targets: phony CMakeFiles/module_appNotesApplication_aotstats_targets .rcc/qmlcache/module_NotesApplication.aotstats .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.aotstats .rcc/qmlcache/appNotesApplication_Main_qml.cpp .rcc/qmlcache/appNotesApplication_Main_qml.cpp.aotstats appnotesapplication_qmltyperegistrations.cpp NotesApplication/appNotesApplication.qmltypes appNotesApplication_qmltyperegistration
 
 
 #############################################
 # Utility command for appNotesApplication_tooling
 
-build appNotesApplication_tooling: phony NotesApplication/Main.qml
+build appNotesApplication_tooling: phony NotesApplication/Main.qml NotesApplication/CustomButton.qml
 
 
 #############################################
@@ -321,9 +329,18 @@ build .rcc/qmlcache/appNotesApplication_Main_qml.cpp .rcc/qmlcache/appNotesAppli
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appNotesApplication_CustomButton_qml.cpp
+
+build .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.aotstats: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmlcachegen.exe C$:/Repositories/QT-CPP/NotesApplication/CustomButton.qml .qt/rcc/qmake_NotesApplication.qrc .qt/rcc/appNotesApplication_raw_qml_0.qrc NotesApplication/appNotesApplication.qmltypes NotesApplication/qmldir
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache && C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/NotesApplication/CustomButton.qml -I C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug -I C:/Qt/6.8.0/mingw_64/qml -i C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/NotesApplication/qmldir --resource C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qmake_NotesApplication.qrc --resource C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appNotesApplication_raw_qml_0.qrc --dump-aot-stats --module-id=NotesApplication(appNotesApplication) -o C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp C:/Repositories/QT-CPP/NotesApplication/CustomButton.qml"
+  DESC = Generating .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp, .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
 # Custom command for .qt\rcc\qrc_appNotesApplication_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Repositories/QT-CPP/NotesApplication/Main.qml .qt/rcc/appNotesApplication_raw_qml_0.qrc C$:/Qt/6.8.0/mingw_64/bin/rcc.exe || appNotesApplication_autogen appNotesApplication_autogen_timestamp_deps appNotesApplication_qmlimportscan appNotesApplication_tooling
+build .qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Repositories/QT-CPP/NotesApplication/Main.qml C$:/Repositories/QT-CPP/NotesApplication/CustomButton.qml .qt/rcc/appNotesApplication_raw_qml_0.qrc C$:/Qt/6.8.0/mingw_64/bin/rcc.exe || appNotesApplication_autogen appNotesApplication_autogen_timestamp_deps appNotesApplication_qmlimportscan appNotesApplication_tooling
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug && C:\Qt\6.8.0\mingw_64\bin\rcc.exe --output C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appNotesApplication_raw_qml_0.cpp --name appNotesApplication_raw_qml_0 C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appNotesApplication_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appNotesApplication_raw_qml_0
   restat = 1
@@ -358,21 +375,21 @@ build CMakeFiles/appNotesApplication_qmltyperegistration | ${cmake_ninja_workdir
 #############################################
 # Custom command for CMakeFiles\appNotesApplication_qmllint
 
-build CMakeFiles/appNotesApplication_qmllint | ${cmake_ninja_workdir}CMakeFiles/appNotesApplication_qmllint: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmllint.exe C$:/Repositories/QT-CPP/NotesApplication/Main.qml .rcc/qmllint/appNotesApplication.rsp || all_qmltyperegistrations appNotesApplication_qmltyperegistration
+build CMakeFiles/appNotesApplication_qmllint | ${cmake_ninja_workdir}CMakeFiles/appNotesApplication_qmllint: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmllint.exe C$:/Repositories/QT-CPP/NotesApplication/Main.qml C$:/Repositories/QT-CPP/NotesApplication/CustomButton.qml .rcc/qmllint/appNotesApplication.rsp || all_qmltyperegistrations appNotesApplication_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication && C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.0/mingw_64/bin/qmllint.exe @C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmllint/appNotesApplication.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appNotesApplication_qmllint_json
 
-build CMakeFiles/appNotesApplication_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appNotesApplication_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmllint.exe C$:/Repositories/QT-CPP/NotesApplication/Main.qml .rcc/qmllint/appNotesApplication_json.rsp || all_qmltyperegistrations appNotesApplication_qmltyperegistration
+build CMakeFiles/appNotesApplication_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appNotesApplication_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmllint.exe C$:/Repositories/QT-CPP/NotesApplication/Main.qml C$:/Repositories/QT-CPP/NotesApplication/CustomButton.qml .rcc/qmllint/appNotesApplication_json.rsp || all_qmltyperegistrations appNotesApplication_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication && C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.0/mingw_64/bin/qmllint.exe @C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmllint/appNotesApplication_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appNotesApplication_qmllint_module
 
-build CMakeFiles/appNotesApplication_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appNotesApplication_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmllint.exe C$:/Repositories/QT-CPP/NotesApplication/Main.qml .rcc/qmllint/appNotesApplication_module.rsp || all_qmltyperegistrations appNotesApplication_qmltyperegistration
+build CMakeFiles/appNotesApplication_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appNotesApplication_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmllint.exe C$:/Repositories/QT-CPP/NotesApplication/Main.qml C$:/Repositories/QT-CPP/NotesApplication/CustomButton.qml .rcc/qmllint/appNotesApplication_module.rsp || all_qmltyperegistrations appNotesApplication_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication && C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.0/mingw_64/bin/qmllint.exe @C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmllint/appNotesApplication_module.rsp"
 
 
@@ -385,7 +402,7 @@ build CMakeFiles/module_appNotesApplication_aotstats_targets | ${cmake_ninja_wor
 #############################################
 # Custom command for .rcc\qmlcache\module_NotesApplication.aotstats
 
-build .rcc/qmlcache/module_NotesApplication.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_NotesApplication.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appNotesApplication_Main_qml.cpp.aotstats || appNotesApplication_qmltyperegistration
+build .rcc/qmlcache/module_NotesApplication.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_NotesApplication.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appNotesApplication_Main_qml.cpp.aotstats .rcc/qmlcache/appNotesApplication_CustomButton_qml.cpp.aotstats || appNotesApplication_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug && C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.0/mingw_64/bin/qmlaotstats.exe aggregate C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/module_NotesApplication.aotstatslist C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.rcc/qmlcache/module_NotesApplication.aotstats"
   DESC = Generating .rcc/qmlcache/module_NotesApplication.aotstats
   restat = 1
@@ -397,6 +414,15 @@ build .rcc/qmlcache/module_NotesApplication.aotstats | ${cmake_ninja_workdir}.rc
 build NotesApplication/Main.qml | ${cmake_ninja_workdir}NotesApplication/Main.qml: CUSTOM_COMMAND C$:/Repositories/QT-CPP/NotesApplication/Main.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Repositories/QT-CPP/NotesApplication/Main.qml C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/NotesApplication/Main.qml"
   DESC = Copying Main.qml to C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/NotesApplication/Main.qml
+  restat = 1
+
+
+#############################################
+# Custom command for NotesApplication\CustomButton.qml
+
+build NotesApplication/CustomButton.qml | ${cmake_ninja_workdir}NotesApplication/CustomButton.qml: CUSTOM_COMMAND C$:/Repositories/QT-CPP/NotesApplication/CustomButton.qml
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Repositories/QT-CPP/NotesApplication/CustomButton.qml C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/NotesApplication/CustomButton.qml"
+  DESC = Copying CustomButton.qml to C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/NotesApplication/CustomButton.qml
   restat = 1
 
 
@@ -425,7 +451,7 @@ build CMakeFiles/appNotesApplication_qmlimportscan | ${cmake_ninja_workdir}CMake
 #############################################
 # Custom command for .qt\qml_imports\appNotesApplication_build.cmake
 
-build .qt/qml_imports/appNotesApplication_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appNotesApplication_build.cmake: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_NotesApplication.qrc .qt/rcc/appNotesApplication_raw_qml_0.qrc C$:/Repositories/QT-CPP/NotesApplication/Main.qml
+build .qt/qml_imports/appNotesApplication_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appNotesApplication_build.cmake: CUSTOM_COMMAND C$:/Qt/6.8.0/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_NotesApplication.qrc .qt/rcc/appNotesApplication_raw_qml_0.qrc C$:/Repositories/QT-CPP/NotesApplication/Main.qml C$:/Repositories/QT-CPP/NotesApplication/CustomButton.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Repositories\QT-CPP\NotesApplication && C:\Repositories\QT-CPP\NotesApplication\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.0/mingw_64/bin/qmlimportscanner.exe @C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/qml_imports/appNotesApplication_build.rsp"
   DESC = Running qmlimportscanner for appNotesApplication
   restat = 1

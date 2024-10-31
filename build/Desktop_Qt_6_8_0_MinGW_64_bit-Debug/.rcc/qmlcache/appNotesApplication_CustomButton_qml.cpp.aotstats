@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 1,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: button",
+                        "functionName": "color",
+                        "line": 13
+                    }
+                ],
+                "filepath": "C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CustomButton.qml"
+            }
+        ],
+        "moduleId": "NotesApplication(appNotesApplication)"
+    }
+]

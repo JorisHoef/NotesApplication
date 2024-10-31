@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/NotesApplication/">
     <file alias="Main.qml">C:/Repositories/QT-CPP/NotesApplication/Main.qml</file>
+    <file alias="CustomButton.qml">C:/Repositories/QT-CPP/NotesApplication/CustomButton.qml</file>
   </qresource>
 </RCC>
 

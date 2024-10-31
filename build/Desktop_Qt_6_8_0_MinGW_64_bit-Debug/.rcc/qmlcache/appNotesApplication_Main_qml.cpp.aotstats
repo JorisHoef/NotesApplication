@@ -4,25 +4,25 @@
             {
                 "entries": [
                     {
-                        "codegenSuccessfull": true,
+                        "codegenSuccessfull": false,
                         "column": 12,
-                        "durationMicroseconds": 186,
-                        "errorMessage": "",
+                        "durationMicroseconds": 135,
+                        "errorMessage": "Cannot access value for name window",
                         "functionName": "y",
                         "line": 17
                     },
                     {
-                        "codegenSuccessfull": true,
+                        "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 64,
-                        "errorMessage": "",
+                        "durationMicroseconds": 69,
+                        "errorMessage": "Cannot access value for name window",
                         "functionName": "width",
                         "line": 18
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 143,
                         "errorMessage": "",
                         "functionName": "when",
                         "line": 22
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 24
@@ -46,22 +46,22 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 37
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 47,
+                        "column": 23,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 44
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 24,
+                        "column": 20,
                         "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "width",
@@ -69,83 +69,67 @@
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 59,
+                        "column": 24,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 58
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 32,
-                        "durationMicroseconds": 59,
+                        "column": 28,
+                        "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 62
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 29,
+                        "column": 31,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
                         "line": 68
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 47,
-                        "durationMicroseconds": 44,
+                        "column": 43,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 69
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 40,
-                        "durationMicroseconds": 29,
+                        "column": 36,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name textArea",
                         "functionName": "onClicked",
                         "line": 74
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 43,
-                        "durationMicroseconds": 44,
+                        "column": 39,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 73
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 24,
+                        "column": 20,
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on width.",
                         "functionName": "width",
                         "line": 85
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 20,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
-                        "functionName": "onClicked",
-                        "line": 98
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on horizontalCenter.",
-                        "functionName": "horizontalCenter",
-                        "line": 94
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 25,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type  for binding on bottom.",
-                        "functionName": "bottom",
-                        "line": 95
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "onCustomClicked",
+                        "line": 93
                     },
                     {
                         "codegenSuccessfull": false,
@@ -153,7 +137,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onClicked.",
                         "functionName": "onClicked",
-                        "line": 112
+                        "line": 106
                     },
                     {
                         "codegenSuccessfull": false,
@@ -161,7 +145,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on horizontalCenter.",
                         "functionName": "horizontalCenter",
-                        "line": 108
+                        "line": 102
                     },
                     {
                         "codegenSuccessfull": false,
@@ -169,7 +153,31 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on bottom.",
                         "functionName": "bottom",
-                        "line": 109
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on horizontalCenter.",
+                        "functionName": "horizontalCenter",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on bottom.",
+                        "functionName": "bottom",
+                        "line": 117
                     },
                     {
                         "codegenSuccessfull": false,
@@ -177,7 +185,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on onValueChanged.",
                         "functionName": "onValueChanged",
-                        "line": 129
+                        "line": 137
                     },
                     {
                         "codegenSuccessfull": false,
@@ -185,7 +193,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on horizontalCenter.",
                         "functionName": "horizontalCenter",
-                        "line": 125
+                        "line": 133
                     },
                     {
                         "codegenSuccessfull": false,
@@ -193,7 +201,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on bottom.",
                         "functionName": "bottom",
-                        "line": 126
+                        "line": 134
                     }
                 ],
                 "filepath": "C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Main.qml"

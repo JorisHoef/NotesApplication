@@ -1,12 +1,12 @@
-import QtQuick
-import QtQuick.Controls
-import QtQuick.VirtualKeyboard
+// Main.qml
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.VirtualKeyboard 2.15
 
-Window {
-    id: window
+ApplicationWindow {
+    visible: true
     width: 640
     height: 480
-    visible: true
     title: qsTr("Hello World")
 
     // Input panel for the virtual keyboard
@@ -41,52 +41,60 @@ Window {
     }
 
     Column {
-            anchors.fill: parent
-            spacing: 10
+        anchors.fill: parent
+        spacing: 10
 
-            // ListView to display a list of items
-            ListView {
+        // ListView to display a list of items
+        ListView {
+            width: parent.width
+            height: 200
+            model: ListModel {
+                ListElement { text: "Item 1" }
+                ListElement { text: "Item 2" }
+                ListElement { text: "Item 3" }
+            }
+
+            delegate: Item {
                 width: parent.width
-                height: 200
-                model: ListModel {
-                    ListElement { text: "Item 1" }
-                    ListElement { text: "Item 2" }
-                    ListElement { text: "Item 3" }
-                }
+                height: 40
 
-                delegate: Item {
+                Rectangle {
                     width: parent.width
                     height: 40
+                    color: "lightgray"
+                    border.color: "gray"
 
-                    Rectangle {
-                        width: parent.width
-                        height: 40
-                        color: "lightgray"
-                        border.color: "gray"
+                    Text {
+                        text: model.text
+                        anchors.centerIn: parent
+                    }
 
-                        Text {
-                            text: model.text
-                            anchors.centerIn: parent
-                        }
-
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: {
-                                textArea.text = model.text + " details...";
-                            }
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: {
+                            textArea.text = model.text + " details...";
                         }
                     }
                 }
             }
+        }
 
-            // TextArea that shows details of the selected item
-            TextArea {
-                id: textArea
-                width: parent.width
-                height: 200
-                placeholderText: "Select an item from the list to see details."
+        // TextArea that shows details of the selected item
+        TextArea {
+            id: textArea
+            width: parent.width
+            height: 200
+            placeholderText: "Select an item from the list to see details."
+        }
+
+        // Instance of CustomButton
+        CustomButton {
+            buttonText: "Another Custom Button"
+            onCustomClicked: {
+                console.log("Another CustomButton clicked in Main.qml");
             }
         }
+    }
 
     Button {
         id: myButton

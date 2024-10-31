@@ -3,3 +3,4 @@ C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debu
 --resource
 C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appNotesApplication_raw_qml_0.qrc
 /qt/qml/NotesApplication/Main.qml
+/qt/qml/NotesApplication/CustomButton.qml

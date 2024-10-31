@@ -2,4 +2,5 @@ module NotesApplication
 typeinfo appNotesApplication.qmltypes
 prefer :/qt/qml/NotesApplication/
 Main 1.0 Main.qml
+CustomButton 1.0 CustomButton.qml
 
