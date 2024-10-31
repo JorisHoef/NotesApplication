@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2736c21e76c556910417.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NotesApplication",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-0c5b9ab6aa971eb3c6bc.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-c146f70daefd5913a22c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-e88049f69a815f235bfe.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-a60e3189f82314703c6b.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-a5e5f9914a3282b1dcc1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication-Debug-ddfbf01645164650fc17.json",
+					"name" : "appNotesApplication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_autogen-Debug-3815ed0e143f46a0f3f4.json",
+					"name" : "appNotesApplication_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_autogen_timestamp_deps-Debug-476f0afa16624df6c133.json",
+					"name" : "appNotesApplication_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_qmlimportscan-Debug-d38cfd49cc6aae01232c.json",
+					"name" : "appNotesApplication_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_qmllint-Debug-459dbf4a5413b1e06433.json",
+					"name" : "appNotesApplication_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_qmllint_json-Debug-544d7d1d527da8f79997.json",
+					"name" : "appNotesApplication_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_qmllint_module-Debug-12e814e0ac4301abd1a7.json",
+					"name" : "appNotesApplication_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_qmltyperegistration-Debug-70eaa121d8d0b64aa737.json",
+					"name" : "appNotesApplication_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appNotesApplication_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appNotesApplication_tooling-Debug-add3eea6a4a952644f89.json",
+					"name" : "appNotesApplication_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appNotesApplication_aotstats_targets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appNotesApplication_aotstats_targets-Debug-2da9ff01b9bfa3c70bdd.json",
+					"name" : "module_appNotesApplication_aotstats_targets",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "C:/Repositories/QT-CPP/NotesApplication"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

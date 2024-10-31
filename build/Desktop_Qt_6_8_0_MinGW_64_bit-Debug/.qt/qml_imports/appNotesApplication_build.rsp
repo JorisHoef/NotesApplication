@@ -1,0 +1,14 @@
+-rootPath
+C:/Repositories/QT-CPP/NotesApplication
+-cmake-output
+-output-file
+C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/qml_imports/appNotesApplication_build.cmake
+-importPath
+C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/NotesApplication
+-importPath
+C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.8.0/mingw_64/qml
+-qrcFiles
+C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qmake_NotesApplication.qrc
+C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appNotesApplication_raw_qml_0.qrc
