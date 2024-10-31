@@ -47,7 +47,20 @@ Window {
         anchors.centerIn: parent
 
         onClicked: {
+            myButton.enabled = !myButton.enabled;
+            myButton2.enabled = !myButton.enabled;
             console.log("Button clicked!");
+        }
+    }
+
+    Button {
+        id: myButton2
+        text: "Click Me 123"
+
+        onClicked: {
+            myButton2.enabled = !myButton2.enabled;
+            myButton.enabled = !myButton2.enabled;
+            console.log("Button 123 clicked!");
         }
     }
 }
