@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 256,
+                        "durationMicroseconds": 223,
                         "errorMessage": "",
                         "functionName": "y",
                         "line": 15
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "when",
                         "line": 20
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 34
