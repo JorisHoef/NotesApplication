@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Controls
 import QtQuick.VirtualKeyboard
 
 Window {
@@ -8,6 +9,7 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
+    // Input panel for the virtual keyboard
     InputPanel {
         id: inputPanel
         z: 99
@@ -23,6 +25,7 @@ Window {
                 y: window.height - inputPanel.height
             }
         }
+
         transitions: Transition {
             from: ""
             to: "visible"
@@ -34,6 +37,17 @@ Window {
                     easing.type: Easing.InOutQuad
                 }
             }
+        }
+    }
+
+    // Simple button
+    Button {
+        id: myButton
+        text: "Click Me"
+        anchors.centerIn: parent
+
+        onClicked: {
+            console.log("Button clicked!");
         }
     }
 }

@@ -6,34 +6,34 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 223,
+                        "durationMicroseconds": 207,
                         "errorMessage": "",
                         "functionName": "y",
-                        "line": 15
+                        "line": 17
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 16
+                        "line": 18
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "when",
-                        "line": 20
+                        "line": 22
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 50,
                         "errorMessage": "",
                         "functionName": "target",
-                        "line": 22
+                        "line": 24
                     },
                     {
                         "codegenSuccessfull": false,
@@ -41,7 +41,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on y. You may want use ID-based grouped properties here.",
                         "functionName": "y",
-                        "line": 23
+                        "line": 25
                     },
                     {
                         "codegenSuccessfull": true,
@@ -49,7 +49,23 @@
                         "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 34
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on centerIn.",
+                        "functionName": "centerIn",
+                        "line": 47
                     }
                 ],
                 "filepath": "C:/Repositories/QT-CPP/NotesApplication/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Main.qml"
