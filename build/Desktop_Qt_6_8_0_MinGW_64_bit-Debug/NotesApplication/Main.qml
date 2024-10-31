@@ -40,11 +40,60 @@ Window {
         }
     }
 
-    // Simple button
+    Column {
+            anchors.fill: parent
+            spacing: 10
+
+            // ListView to display a list of items
+            ListView {
+                width: parent.width
+                height: 200
+                model: ListModel {
+                    ListElement { text: "Item 1" }
+                    ListElement { text: "Item 2" }
+                    ListElement { text: "Item 3" }
+                }
+
+                delegate: Item {
+                    width: parent.width
+                    height: 40
+
+                    Rectangle {
+                        width: parent.width
+                        height: 40
+                        color: "lightgray"
+                        border.color: "gray"
+
+                        Text {
+                            text: model.text
+                            anchors.centerIn: parent
+                        }
+
+                        MouseArea {
+                            anchors.fill: parent
+                            onClicked: {
+                                textArea.text = model.text + " details...";
+                            }
+                        }
+                    }
+                }
+            }
+
+            // TextArea that shows details of the selected item
+            TextArea {
+                id: textArea
+                width: parent.width
+                height: 200
+                placeholderText: "Select an item from the list to see details."
+            }
+        }
+
     Button {
         id: myButton
         text: "Click Me"
-        anchors.centerIn: parent
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 20
 
         onClicked: {
             myButton.enabled = !myButton.enabled;
@@ -55,12 +104,30 @@ Window {
 
     Button {
         id: myButton2
-        text: "Click Me123"
+        text: "Click Me 123"
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: myButton.top
+        anchors.bottomMargin: 10
 
         onClicked: {
             myButton2.enabled = !myButton2.enabled;
             myButton.enabled = !myButton2.enabled;
             console.log("Button 123 clicked!");
+        }
+    }
+
+    Slider {
+        id: mySlider
+        from: 0
+        to: 100
+        value: 50
+
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: myButton2.top
+        anchors.bottomMargin: 10
+
+        onValueChanged: {
+            myButton.text = value.toString(); // Update button text with slider value
         }
     }
 }
